@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTERIA</title>
+
+
+        <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Press Start 2P', monospace;
+        background: linear-gradient(to bottom, #000000, #1a1a1a);
+        color: #ffd700;
+        text-align: center;
+    }
+
+    header {
+        background: #111;
+        padding: 40px 20px;
+        border-bottom: 4px solid #ffd700;
+        box-shadow: 0 0 20px #ffcc00;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+        color: #ffcc00;
+        text-shadow: 2px 2px #000;
+        margin-bottom: 20px;
+    }
+
+    header img {
+        width: 150px;
+        margin: 20px auto;
+        display: block;
+        filter: drop-shadow(0 0 10px gold);
+    }
+
+    header p {
+        font-size: 0.8em;
+        color: #ffdf00;
+        padding: 10px;
+        background-color: #222;
+        border: 2px dashed #ffcc00;
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    section {
+        background: #000;
+        padding: 40px 20px;
+        border-top: 4px solid #ffd700;
+        border-bottom: 4px solid #ffd700;
+    }
+
+    form {
+        display: inline-block;
+        background-color: #111;
+        padding: 30px;
+        border: 2px solid #ffcc00;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #ffcc00;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+        font-size: 0.75em;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        padding: 10px;
+        margin-bottom: 15px;
+        width: 200px;
+        background: #000;
+        border: 2px solid #ffcc00;
+        color: #ffd700;
+        font-family: 'Press Start 2P', monospace;
+    }
+
+    input[type="submit"] {
+        background: #ffd700;
+        color: #000;
+        font-weight: bold;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: 'Press Start 2P', monospace;
+        box-shadow: 0 0 10px #ffd700;
+        transition: 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background: #ff9900;
+        box-shadow: 0 0 15px #ff9900;
+    }
+
+    footer {
+        background-color: #111;
+        padding: 20px;
+        border-top: 4px solid #ffd700;
+    }
+
+    footer a {
+        color: #ffd700;
+        font-size: 0.9em;
+        text-decoration: none;
+        border: 2px solid #ffd700;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: #000;
+        transition: 0.3s;
+        display: inline-block;
+        box-shadow: 0 0 10px #ffd700;
+    }
+
+    footer a:hover {
+        background: #ffd700;
+        color: #000;
+        box-shadow: 0 0 20px #ffd700;
+    }
+</style>
+    
+</head>
+<body>
+    
+    <header>
+        <h1>Quer sair do sufoco? A cobra te mostra o caminho!</h1>
+
+        <img src="cobra.png" alt="cobre">
+        <p>"Tá esperando o quê? Milagre? A sorte não bate em porta de quebrado <br> — você tem que comprar! 
+            Na Golden Snake, quem aposta, escapa. Quem pensa demais… continua liso."</p>
+    </header>
+
+    <section>
+
+        <form action="script.php" method="get">
+
+            <label for="name">Nome Completo: </label>
+            <input type="text" name="name" id="idname">
+
+
+
+
+            <label for="numb">Número para contato: </label>
+            <input type="text" name="numb" id="idnumb">
+
+            <br>
+
+           <p>Digite os numeros da sorte!</p>
+
+           <label for="sorte1">Primeiro-Número:</label>
+           <input type="number" name="sorte1" id="idsorte1">
+
+            <label for="sorte2">Segundo-Número:</label>
+           <input type="number" name="sorte2" id="idsorte2">
+
+           <label for="sorte3">Terceiro-Número:</label>
+           <input type="number" name="sorte3" id="idsorte3">
+
+
+
+            <br>
+
+            <input type="submit" value="Enviar">
+
+            
+        </form>
+    </section>
+
+    <footer>
+       <a href="MAIN.PHP">PROXIMO</a>
+    </footer>
+
+</body>
+</html>
