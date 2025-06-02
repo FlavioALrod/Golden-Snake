@@ -1,2 +1,2 @@
 # Golden-Snake
-Um site compegada neon anos 80 com o objetivo de ser uma parodia desses sites de apostas. Apesar do Front End "simples", de html e css puro, ele carregar um bom back end, escupido por nada mais nada menos pelo o PHP, seguindo recomedação de segurança de validação de formularios e aplicando metodo de segurança com uma sintaxe simples e direta,.
+Um site neon, estilo anos 80, que parodia os clássicos portais de apostas. Apesar do front-end "simples", feito em HTML e CSS puro, ele carrega um back-end robusto, esculpido por ninguém menos que o PHP, seguindo boas práticas de validação de formulários e aplicando métodos de segurança com uma sintaxe direta e eficaz.
